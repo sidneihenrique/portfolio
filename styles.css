@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+:root {
+    --black:       #1C1C1C;
+    --light-black: #2D2D2D;
+    --grey:        #3F3F3F;
+    --white:       #FFFFFF;
+    --red:         #E42F2F;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 18px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--black);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--light-black);
+    border-radius: 10px;
+    border: 5px solid var(--black);
+    height: 64px;
+}
+
+h1 {
+    color: var(--white);
+    font-weight: 500;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 98vw;
+    background: radial-gradient(50% 50% at 50% 50%, #2D2D2D 0%, #1C1C1C 100%);
+    padding: 24px 6%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    margin-bottom: 5%;
+}
+
+.header-left {
+    width: 65%;
+}
+
+.header-right {
+    display: flex;
+    width: 35%;
+    justify-content: space-around;
+}
+
+a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.title {
+    margin: 96px 0;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+}
+
+.title h2 {
+    font-style: italic;
+    font-weight: 300;
+    color: var(--white);
+}
+
+.title h1 {
+    font-weight: 500;
+}
+
+.title span {
+    color: var(--red);
+}
+
+#DownIcon {
+    width: 48px;
+    align-self: center;
+    margin-bottom: 5%;
+}
+
+#about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    gap: 64px;
+}
+
+#about p{
+    width: 50%;
+    color: var(--white);
+    font-weight: 300;
+}
+
+.Picture {
+    width: 50%;
+    height: 278px;
+    background-color: var(--light-black);
+}
+
+#projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 50% 50%;
+    column-gap: 32px;
+    row-gap: 32px;
+    
+
+}
+
+.project {
+    box-sizing: border-box;
+    background-color: var(--grey);
+    width: 100%;
+    height: 272px;
+}
