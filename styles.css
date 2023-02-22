@@ -166,6 +166,43 @@ a {
     height: 280px;
 }
 
+#skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+#skills h1 {
+    margin-bottom: 32px;
+    font-size: 40px;
+}
+
+#skills details {
+    width: 100%;
+    max-width: 1000px;
+    min-height: 64px;
+    padding: 14px 24px;
+    background-color: #3F3F3F;
+    border-radius: 16px;
+    color: white;
+
+    line-height: 36px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#skills details p {
+    color: #A4A4A4;
+    max-width: 400px;
+    font-weight: 275;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+
+
 
 @keyframes downIcon {
     to {
