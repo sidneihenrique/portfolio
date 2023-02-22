@@ -191,17 +191,88 @@ a {
     line-height: 36px;
     font-size: 24px;
     font-weight: 500;
+
 }
 
 #skills details p {
     color: #A4A4A4;
-    max-width: 400px;
+    max-width: 412px;
+    max-height: 152px;
     font-weight: 275;
     font-size: 20px;
     line-height: 20px;
 }
 
+#skills details div {
+    display: flex;
+    margin: 24px 80px 40px auto;
+    gap: 56px;
+}
 
+#skills details div img {
+    max-height: 152px;
+}
+
+#contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact h1 {
+    margin-bottom: 32px;
+    font-size: 40px;
+}
+
+#contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+#contacts .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:  616px;
+    height: 120px;
+    border-radius: 16px;
+
+    padding: 0 36px;
+    background-color: #3F3F3F;
+}
+
+#contacts .container div {
+    text-align: center;
+    align-self: center;
+}
+
+#contacts .container h2 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #C9C9C9;
+}
+
+#contacts .container p {
+    color: #949494;
+    font-weight: 400;
+}
+
+#contacts ion-icon {
+    font-size: 48px;
+    color: #C9C9C9;
+
+}
+
+#contacts .finalText {
+    font-weight: 350;
+    color: white;
+    text-align: center;
+}
+
+#contacts .finalText a {
+    color: #2461FF;
+}
 
 
 @keyframes downIcon {
