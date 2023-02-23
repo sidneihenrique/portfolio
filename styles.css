@@ -100,6 +100,7 @@ a {
 
 .title span {
     color: var(--red);
+    animation: nameRedShadow 4s infinite alternate;
 }
 
 #DownIcon {
@@ -278,5 +279,14 @@ a {
     }
     from {
         transform: translateY(0px);
+    }
+}
+
+@keyframes nameRedShadow {
+    to {
+        text-shadow: none;
+    }
+    from {
+        text-shadow: 0px 0px 64px rgba(228, 47, 47, 0.7);
     }
 }
