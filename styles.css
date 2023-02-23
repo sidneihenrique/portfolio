@@ -132,7 +132,7 @@ a {
 .Picture {
     width: 50%;
     max-width: 540px;
-    background: url(./assets/personalImage.png) no-repeat center;
+    background: url(/assets/personalImage.png) no-repeat center;
     filter: brightness(70%);
     height: 340px;
     border-radius: 10px;
