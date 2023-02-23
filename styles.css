@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500;600&display=swap');
 
 :root {
     --black:       #1C1C1C;
@@ -41,7 +41,7 @@ img {
     height: 100%;
     border-radius: 12px;
     object-fit: cover;
-    filter: opacity(50%);
+    filter: opacity(60%);
     transition: 1s;
 }
 
@@ -115,26 +115,23 @@ a {
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
-    /* gap: 64px; */
+    gap: 64px;
 }
 
 #about p{
     width: 50%;
     color: var(--white);
-    font-weight: 300;
     max-width: 600px;
 
-    font-weight: 275;
+    font-weight: 250;
     font-size: 16px;
     line-height: 24px;
 }
 
-.Picture {
+#Picture {
     width: 50%;
     max-width: 540px;
-    background-image: url(./assets/personalImage.png);
-    filter: brightness(70%);
-    height: 340px;
+    height: 300px;
     border-radius: 10px;
     transition: 1s;
 }
@@ -151,7 +148,7 @@ a {
 
 #projects-container h1 {
     margin-bottom: 32px;
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 600;
 }
 
@@ -176,7 +173,7 @@ a {
 
 #skills h1 {
     margin-bottom: 32px;
-    font-size: 40px;
+    font-size: 32px;
 }
 
 #skills details {
@@ -190,7 +187,7 @@ a {
 
     line-height: 36px;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 400;
 
 }
 
@@ -198,7 +195,7 @@ a {
     color: #A4A4A4;
     max-width: 412px;
     max-height: 152px;
-    font-weight: 275;
+    font-weight: 200;
     font-size: 20px;
     line-height: 20px;
 }
