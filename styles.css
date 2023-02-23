@@ -232,7 +232,7 @@ a {
 
 #contacts .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width:  616px;
     height: 120px;
@@ -244,7 +244,7 @@ a {
 
 #contacts .container div {
     text-align: center;
-    align-self: center;
+    margin-right: 36%;
 }
 
 #contacts .container h2 {
