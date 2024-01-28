@@ -370,4 +370,51 @@ a {
         border-radius: 4px;
         
     }
+
+    #about{
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    #about p{
+        width: 100%;
+        text-align: center;
+    }
+
+    #Picture{
+        width: 100%;
+    }
+
+    .projects{
+        grid-template-columns: 1fr;
+    }
+
+    #contacts{
+        width: 100%;
+    }
+
+    #contacts .container{
+        width: 100%;
+
+        justify-content: center;
+        align-items: center;
+
+        padding: 0 24px;
+
+        position: relative;
+    }
+
+    #contacts .container div{
+        margin-right: 0;
+
+        
+    }
+
+    #contacts .container ion-icon{
+        position: absolute;
+        left: 48px;
+        top: 50%;
+
+        transform: translate(-50%, -50%);
+    }
 }
