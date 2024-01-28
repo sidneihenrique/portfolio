@@ -389,6 +389,19 @@ a {
         grid-template-columns: 1fr;
     }
 
+    #skills details div{
+        flex-direction: column;
+
+        margin: 0;
+        margin-top: 16px;
+
+        gap: 16px;
+    }
+
+    #skills details p{
+        max-height: fit-content;
+    }
+
     #contacts{
         width: 100%;
     }
