@@ -10,7 +10,23 @@
 
 <body>
 
+    <button onclick="navSmartphone()" class="button-open-nav"><ion-icon name="menu"></ion-icon></button>
+
     <nav>
+        <section class="header-left">
+            <h1>PORTFOLIO</h1>
+        </section>
+        <section class="header-right">
+            <a href="#about">about</a>
+            <a href="#skills">skills</a>
+            <a href="#projects-container">projects</a>
+            <a href="#contact">contact</a>
+        </section>
+    </nav>
+
+    <nav id="smartphone">
+        <button onclick="navSmartphone()" class="button-open-nav" ><ion-icon name="close"></ion-icon></button>
+
         <section class="header-left">
             <h1>PORTFOLIO</h1>
         </section>
@@ -68,7 +84,7 @@
             <details>
                 <summary>UI/UX Design</summary>
                 <div> 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+                    <p>Durante meus estudos, acumulei conhecimentos de UI e UX, construindo design de interfaces no Figma.</p>
                     <img src="./assets/figma.png" alt="Figma Logo">
                 </div>
             </details>
@@ -76,7 +92,7 @@
             <details>
                 <summary>FrontEnd Development</summary>
                 <div> 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+                    <p>Tenho conhecimentos avançados na parte do FrontEnd utilizando as tecnologias HTML, CSS e JS.</p>
                     <img src="./assets/frontend-development.jpg" alt="HTML, CSS, JS image representation">
                 </div>
             </details>
@@ -133,6 +149,8 @@
         </section>
 
     </main>
+
+    <script src="./main.js"></script>
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
