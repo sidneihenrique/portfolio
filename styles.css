@@ -171,6 +171,43 @@ a {
 
 .project {
     height: 280px;
+
+    border-radius: 12px;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.project p{
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(0, 0, 0, 0.6);
+
+    transition: 0.7s;
+
+}
+
+.project:hover p{
+    background: rgba(0, 0, 0, 0);
+
+    opacity: 0.2;
+
+    transition: 0.7s;
+
+}
+
+.project:hover img{
+    transform: scale(0.9);
 }
 
 #skills {
