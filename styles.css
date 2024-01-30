@@ -191,6 +191,9 @@ a {
     justify-content: center;
     align-items: center;
 
+    text-align: center;
+
+
     background: rgba(0, 0, 0, 0.6);
 
     transition: 0.7s;
@@ -199,6 +202,7 @@ a {
 
 .project:hover p{
     background: rgba(0, 0, 0, 0);
+
 
     opacity: 0.2;
 
